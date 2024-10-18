@@ -52,8 +52,11 @@ return {
 				capabilities = capabilities,
 			})
 
+      lspconfig.ast_grep.setup({
+				capabilities = capabilities,
+			})
 			vim.cmd([[
-			autocmd BufWritePre *.py lua vim.lsp.buf.formatting_sync(nil, 1000)
+			autocmd BufWritePre "*.py" lua vim.lsp.buf.formatting_sync(nil, 1000)
 		  ]])
 
 			-- css
@@ -83,6 +86,10 @@ return {
 
 
 			lspconfig.bashls.setup({
+				capabilities = capabilities,
+			})
+
+      lspconfig.omnisharp.setup({
 				capabilities = capabilities,
 			})
 

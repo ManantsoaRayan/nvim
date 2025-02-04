@@ -25,7 +25,7 @@ return {
           extra_args = { "--plugin=@prettier/plugin-php" },
         }),
         null_ls.builtins.formatting.black, -- python
-        null_ls.builtins.formatting.beautysh,
+        --null_ls.builtins.formatting.beautysh,
         --null_ls.builtins.diagnostics.shellcheck
       },
     })

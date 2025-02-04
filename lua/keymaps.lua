@@ -12,6 +12,7 @@ vim.keymap.set("n", "\\p", "i{A}<Esc>", {})
 
 -- command
 vim.keymap.set("n", "<leader>hc", ":help ", {})
+vim.keymap.set("n", "<leader>rl", ":LspRestart<CR>", {})
 
 -- Autocomplétion des parenthèses, accolades et guillemets
 

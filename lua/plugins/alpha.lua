@@ -9,7 +9,7 @@ return {
 		local dashboard = require("alpha.themes.startify")
 
 		dashboard.section.header.val = {
-			[[                                                                       ]],
+			[[    My Personal Configuration mother fucker                            ]],
 			[[                                                                       ]],
 			[[                                                                       ]],
 			[[                                                                       ]],
@@ -23,7 +23,7 @@ return {
 			[[ ██████  █████████████████████ ████ █████ █████ ████ ██████ ]],
 			[[                                                                       ]],
 			[[                                                                       ]],
-			[[                                                                       ]],
+			[[  Made by ManantsoaRayan                                               ]],
 		}
 
 		alpha.setup(dashboard.opts)
